@@ -11,7 +11,7 @@ services:
     - MYSQL_PASSWORD=BACIT2020
     - MYSQL_HOST=db
     ports:
-    - "8080:80"
+    - "8081:80"
     volumes:
     - .:/var/www
     depends_on:
