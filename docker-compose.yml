@@ -27,4 +27,7 @@ services:
     - MYSQL_PASSWORD=BACIT2020
     - MYSQL_DATABASE=ergotests
     volumes:
-    - "~/.mysql_data:/var/lib/mysql"
+    - "mysql_data:/var/lib/mysql"
+
+volumes:
+  mysql_data: { driver: local }
