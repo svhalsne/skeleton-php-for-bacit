@@ -38,7 +38,7 @@ services:
     environment:
       MYSQL_USER: dbuser
       MYSQL_PASSWORD: BACIT2020
-      MYSQL_ROOT_PASSWORD: BSBACIT2020
+      MYSQL_ROOT_PASSWORD: 8t#G!2Mz6
 
 volumes:
   mysql_data: { driver: local }
